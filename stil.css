@@ -1,0 +1,432 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  background: #1c079281;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  color: rgb(60, 28, 204);
+  text-shadow: wheat 2px 2px;
+  background-image: url("imgs/wallpaper1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#descriereMare{
+    line-height:normal;
+    margin-top: -23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: wheat 1px 1px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(58,5,85);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*elimina sublinierea*/
+}
+
+/*schimba culoarea nav-bar-ului cand suntem cu mouseul pe butoane*/
+.topnav a:hover {
+  background-color: rgb(254,115,62);
+  color: black;
+}
+
+
+.leftcolumn {   
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+.middlecolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.image {
+    margin: 5px;
+    border: 1px solid #777;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+.images-recomandate img{
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image:hover{
+    border: 2px solid #1a010e;
+}
+.descriere {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#curentFav{
+    text-shadow: white 1px 1px;
+    text-decoration: underline;
+
+}
+/* Add a card effect for articles */
+.card {
+  background-color: #BAD7F3;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.butonS a{
+  text-decoration: none;
+  color: black;
+}
+
+#butonSpam{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: black 1px solid;
+  border-radius: 10px;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(142, 110, 173, 0.26);
+}
+#butonSpam:hover{
+  border:black 2px solid;
+}
+
+#RecomandariSS li{
+  list-style-type: none;
+  display: block;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: crimson 2px solid;
+  box-shadow: darkkhaki 0px 5px 5px;
+}
+
+#RecomandariSS li a{
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #2e0101;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#RecomandariSS li a:hover{
+  font-weight: normal;
+  font-size: 35px;
+}
+
+#RecomandariSS li img{
+  height: 100%;
+  width: auto;
+  float: left;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.listaContacte li{
+    margin-top: 20px;
+    width: 50%;
+    box-shadow: blanchedalmond 2px 2px 2px 2px;
+    height: 35px;
+    border: green 1px solid;
+    background-color: rgb(150, 186, 201);
+}
+.listaContacte a{
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #1a010e;
+}
+.listaContacte img{
+    width: 30px;
+    height: auto;
+}
+.elementLista1{
+  margin-top: 8px;
+}
+#buna{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#cristi{
+  text-decoration: underline;
+  font-weight: bold;
+  color: crimson;
+}
+
+#idk1{
+  text-align: right;
+  font-size: 19px;
+  margin-top: -20px;
+}
+.fundal1{
+  object-position: center;
+  background-color: #c4baf3;
+  box-shadow:#f2f2f2 5px 5px 5px 5px;
+}
+.fundal1 img{
+  display: block;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.continut{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articol2{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.accentuat{
+  font-weight: bold;
+}
+.articol2 p{
+  border-bottom: 1px black solid;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+.jumpSus{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid rgb(187, 67, 67);
+  background-color: rgba(150, 186, 201, 0.459);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/*definirea stilurilor pentru cea de a doua pagina */
+.TabelaFilme{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  padding: 20px;
+  background-color:#BAD7F3;
+}
+
+.TabelaFilme table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color:rgb(120, 95, 160);
+}
+
+.TabelaFilme td, th {
+  border: 1px solid #0e0d0d;
+  text-align: left;
+  padding: 8px;
+}
+.TabelaFilme th{
+  background-color: black;
+  color: wheat;
+  border-color: wheat;
+}
+.TabelaFilme tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#marvel{
+  background-image: url("imgs/marvelLogo.png");
+  background-repeat:repeat-y;
+  background-size: 30px;
+  width: 30px;
+}
+#dclogo{
+  background-image: url("imgs/dclogo.jpeg");
+  background-repeat:repeat-y;
+  background-size: 30px;
+}
+#sonylogo{
+  background-image: url("imgs/sonylogo.png");
+  background-repeat:repeat-y;
+  background-size: 30px;
+}
+.posterS{
+  float: left;
+  width: 10%;
+  height: 1000px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  margin-top: 10px;
+}
+.posterD{
+  float: right;
+  width: 10%;
+  height: 1000px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  margin-top: 10px;
+}
+
+/**Definirea stilurilor pentru cea de a treia pagina*/
+
+.listaSeriale{
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  padding: 20px;
+  background-color:#BAD7F3;
+}
+
+.titluSerial{
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.AnAparitie{
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.listaSeriale ul{
+  font-size: 18px;
+  margin-top: -15px;
+}
+.listaSeriale dl{
+  margin-bottom: 5px;
+}
+.listaSeriale li{
+  margin-bottom: 8px;
+}
+
+.scor{
+  border: black solid 1px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.sase{
+  background-color: rgba(224, 37, 37, 0.568);
+}
+.sapte{
+  background-color: rgba(224, 165, 37, 0.568);
+}
+.opt{
+  background-color: rgba(183, 224, 37, 0.568);
+}
+.noua{
+  background-color: rgba(37, 224, 84, 0.568);
+}
+#PrimulS{
+  border: black solid 1px;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  color: rgb(224, 224, 24);
+  background-color: rgba(136, 42, 165, 0.63);
+}
+#MyFav{
+  border: black solid 1px;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  color: rgb(224, 224, 24);
+  background-color: rgba(136, 42, 165, 0.63);
+}
+.conSeriale{
+  border:black 1px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(137, 43, 226, 0.1);
+}
+.serialS{
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 235, 205, 0.13);
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.listaSeriale h3{
+  font-size: 25px;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+.conSeriale a:hover{
+  color: red;
+}
+ol{
+  list-style-type:upper-roman;
+}
